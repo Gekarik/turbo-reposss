@@ -1,0 +1,74 @@
+.container {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.black h4,
+.black p {
+  color: black;
+}
+
+.black_back {
+  background-color: black;
+}
+
+.red h4,
+.red p {
+  color: red;
+}
+
+.red_back {
+  background-color: red;
+}
+
+.blue h4,
+.blue p {
+  color: blue;
+}
+
+.blue_back {
+  background-color: blue;
+}
+
+.green h4,
+.green p {
+  color: green;
+}
+
+.green_back {
+  background-color: green;
+}
+
+h4,
+p {
+  max-width: 180px;
+}
+
+p {
+  flex-grow: 1;
+}
+
+.container_icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.container_icons svg:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}

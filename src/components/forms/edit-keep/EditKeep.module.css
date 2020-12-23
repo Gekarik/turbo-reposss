@@ -1,0 +1,24 @@
+.changedStatusContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonAdd {
+  margin-left: 20px;
+}
+
+.textArea {
+  min-width: 100%;
+  min-height: 100px;
+}
+
+.topic {
+  width: 120px;
+}
